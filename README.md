@@ -7,17 +7,20 @@
 </p>
 
 <p align="center">
+  <a href="https://professional-site-ashen.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/-Website-000000?style=flat-square&logo=vercel&logoColor=3ECF8E" alt="Website" />
+  </a>
+  <a href="https://github.com/arleujr" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
   <a href="https://linkedin.com/in/arleujunior" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:arleujr30@gmail.com">
     <img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/arleujr" target="_blank">
-    <img src="https://img.shields.io/badge/-Portfolio-3ECF8E?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="ArleujrEN.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/-Resume_/_CV-E74C3C?style=flat-square&logo=adobe-acrobat-reader&logoColor=white" alt="Resume" />
+  <a href="assets/docs/arleu-junior-cv.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/-Curriculum_/_CV-E74C3C?style=flat-square&logo=adobe-acrobat-reader&logoColor=white" alt="Resume" />
   </a>
 </p>
 
