@@ -19,7 +19,7 @@
   <a href="mailto:arleujr30@gmail.com">
     <img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="assets/docs/arleu-junior-cv.pdf" target="_blank">
+  <a href="assets/docs/arleucv.pdf" target="_blank">
     <img src="https://img.shields.io/badge/-Curriculum_/_CV-E74C3C?style=flat-square&logo=adobe-acrobat-reader&logoColor=white" alt="Resume" />
   </a>
 </p>
