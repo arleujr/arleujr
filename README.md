@@ -60,7 +60,7 @@ Here is the real-world context of how I apply my tools and studies across active
 ### Frontend, Products and AI Analytics
 * **Reactive Interfaces** Building Vue.js Single-Page Applications (SPAs) integrated with backend APIs, specializing in real-time simulation matrices and continuous hardware sensor status logs.
 * **Data Visualisation (Power BI and Web)** Transforming raw server datasets and data frames into interactive operational dashboards, ensuring high data readability for business stakeholders.
-* **Reference Repository** [agrisentry-dashboard](https://github.com/arleujr/agrisentry-dashboard) (Vue 3, TailwindCSS, Vite).
+* **Reference Repository** [agrisentry-iot-platform](https://github.com/arleujr/agrisentry-iot-platform) (Vue 3, TailwindCSS, Vite).
 
 ### Ingestion Gateway (Infrastructure)
 * **High-Speed Ingestion** Constructing lightweight networking blocks in Rust to receive and route simultaneous multi-protocol streams (HTTP/MQTT) without non-blocking database IO bottlenecks.
