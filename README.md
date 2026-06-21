@@ -28,7 +28,7 @@
 
 ## 👤 About Me
 
-Agricultural Engineering student at the Federal University of Viçosa (UFV) specializing in the intersection of **Precision Agriculture, Asynchronous Systems, and Data Engineering**[cite: 3]. I combine deep field operations insight with a robust backend stack to design real-time data ingestion pipelines, cloud-hosted microservices, distributed IoT architectures, and statistical data quality engines[cite: 3]. Highly autonomous and geared towards optimization via AI and clean code principles.
+Agricultural Engineering student at the Federal University of Viçosa (UFV) specializing in the intersection of **Precision Agriculture, Asynchronous Systems, and Data Engineering**. I combine deep field operations insight with a robust backend stack to design real-time data ingestion pipelines, cloud-hosted microservices, distributed IoT architectures, and statistical data quality engines[cite: 3]. Highly autonomous and geared towards optimization via AI and clean code principles.
 
 ---
 
