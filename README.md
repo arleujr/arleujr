@@ -2,10 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=1b4d3e&height=170&section=header&text=Arleu%20Júnior&fontSize=40&fontColor=ffffff" alt="Arleu Júnior" />
 </p>
 
-<h3 align="center">Backend and Data applied to Agriculture</h3>
+<h3 align="center">Backend Development · Data · AgTech</h3>
 
 <p align="center">
-  Python · SQL · FastAPI · PostgreSQL · Docker
+  Python · FastAPI · PostgreSQL · Docker · Rust
 </p>
 
 <p align="center">
@@ -18,135 +18,173 @@
   <a href="mailto:arleujr30@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="assets/docs/arleucv.pdf">
+  <a href="ArleujrEN.pdf">
     <img src="https://img.shields.io/badge/Resume-E74C3C?style=flat-square&logo=adobe-acrobat-reader&logoColor=white" alt="Resume" />
   </a>
+</p>
+
+<p align="center">
+  Portuguese documentation: <a href="README.pt-BR.md">README.pt-BR.md</a>
 </p>
 
 ---
 
 ## About me
 
-I am an Agronomy undergraduate at the Federal University of Viçosa, focused on backend development and data systems.
+I am a final-year Agronomy student at the Federal University of Viçosa, building practical experience in backend development and data.
 
-My background helps me understand agricultural operations, business rules and the contexts in which field data is generated. I use this domain knowledge to build software projects involving APIs, databases, automation and operational data processing.
+My academic and professional background gives me direct contact with field operations, protocols, traceability, and operational records. I use this context to build software involving REST APIs, relational databases, asynchronous processing, data validation, and automation.
 
-My primary stack is Python, SQL, FastAPI and PostgreSQL. I also use Docker, automated tests and continuous integration to make my projects easier to reproduce and maintain.
+My main stack is **Python, FastAPI, SQL, and PostgreSQL**, supported by Docker, automated tests, Git, and continuous integration. I also use Redis, Celery, PostGIS, Vue, TypeScript, React, Node.js, and Rust in specific projects.
 
-I am currently seeking an internship or junior opportunity in backend development, data or AgTech.
+I am currently open to internship and junior opportunities in backend development, data, or AgTech.
 
 ---
 
 ## Current focus
 
-* Backend development with Python and FastAPI
-* Relational data modeling with PostgreSQL
-* Data validation, transformation and ingestion
-* Automated testing and continuous integration
-* Asynchronous processing
-* Agricultural telemetry and operational data
-
-I am also studying PySpark, Delta Lake and Medallion Architecture through practical exercises and experimental projects.
-
----
-
-## Selected projects
-
-### AgriSentry IoT Gateway
-
-Experimental Rust service for receiving, validating and persisting agricultural telemetry through MQTT and HTTP.
-
-The project explores asynchronous processing, database integration, automated tests, continuous integration and load testing.
-
-**Technologies:** Rust, Actix Web, SQLx, MQTT and PostgreSQL.
-
-[View repository](https://github.com/arleujr/agrisentry-iot-gateway)
+- REST API development with Python and FastAPI
+- Relational and geospatial data modeling with PostgreSQL and PostGIS
+- Asynchronous processing with Redis and Celery
+- Data ingestion, validation, normalization, and traceability
+- Automated testing and CI/CD
+- Agricultural telemetry through MQTT and HTTP
+- Local tools for academic and operational automation
 
 ---
 
-### AgriSentry Core
+## Featured projects
 
-Backend service for processing agricultural telemetry and applying configurable data-quality and anomaly-detection rules.
+### [AgriSentry Cotton](https://github.com/arleujr/agrisentry-cotton)
 
-The current implementation uses rule-based classification and asynchronous workers. Future versions may explore statistical or machine-learning models after the rule-based baseline has been properly evaluated.
+Platform under development for organizing cotton-management, monitoring, and catalog data.
 
-**Technologies:** Python, FastAPI, SQLAlchemy, AsyncIO, PostgreSQL and Pytest.
+- Asynchronous REST API with FastAPI and SQLAlchemy
+- PostgreSQL/PostGIS persistence
+- JWT authentication and organization-based context
+- Background jobs with Redis and Celery
+- Catalog workflow with staging, validation, normalization, deduplication, human review, and publication
+- Backend tests with Pytest and frontend tests with Vitest
+- Vue 3 and TypeScript interface
 
-[View repository](https://github.com/arleujr/agrisentry-core)
-
----
-
-### Nomino
-
-Python application created to automate certificate generation from spreadsheet records.
-
-The project was developed to reduce repetitive administrative work related to event organization and certificate distribution.
-
-**Technologies:** Python, Pandas and spreadsheet processing.
-
-[View repository](https://github.com/arleujr/Nomino)
+**Stack:** Python, FastAPI, PostgreSQL, PostGIS, Redis, Celery, Docker, Vue 3, and TypeScript
 
 ---
 
-## Experience and domain background
+### [RefEngine](https://github.com/arleujr/RefEngine)
 
-### Pif Paf Alimentos — Intern
+Local application for ingesting academic sources, reviewing bibliographic metadata, and generating references according to UFV standards.
 
-Developed an experimental data-analysis and prediction prototype using Python, Streamlit and XGBoost. Worked on data preparation, validation and visualization.
+- PDF, RIS, and BibTeX ingestion
+- OCR for documents without extractable text
+- Required-field validation and conflict identification
+- Metadata review through PATCH endpoints
+- Offline execution and formatted export
+- OpenAPI documentation and automated tests
 
-### ADWA Cannabis — Intern
-
-Supported environmental data recording, process monitoring and traceability activities related to plant production.
-
-### GeCotton — UFV
-
-Developed Nomino, a Python application used to automate part of the certificate-generation workflow for events.
+**Stack:** Python, FastAPI, React, SQLite, Pytest, and OpenAPI
 
 ---
 
-## Technology stack
+### [tccBuilder](https://github.com/arleujr/tccBuilder)
 
-**Primary**
+Local application for filling, validating, and generating an undergraduate thesis from the UFV template.
 
-* Python
-* SQL
-* FastAPI
-* PostgreSQL
-* Git
-* Docker
+- Structured forms for thesis sections
+- Required-field validation
+- Review states and error handling
+- Local document generation
+- React interface with Node.js execution
 
-**Additional experience**
+**Stack:** React, Node.js, and JavaScript
 
-* Pandas
-* Pytest
-* SQLAlchemy
-* MQTT
-* Vue.js
-* Tailwind CSS
-* Rust
-* GitHub Actions
+---
 
-**Currently studying**
+### [AgriSentry IoT Gateway](https://github.com/arleujr/agrisentry-iot-gateway)
 
-* PySpark
-* Delta Lake
-* Data pipelines
-* Data quality
-* Observability
-* Distributed processing fundamentals
+Asynchronous ingestion gateway for agricultural telemetry received through MQTT and HTTP.
+
+- Multi-protocol ingestion with MQTT and REST
+- PostgreSQL persistence through SQLx
+- Retry strategy with exponential backoff
+- Graceful shutdown and connection handling
+- Integration with FastAPI services for downstream processing
+- Docker-based local environment
+
+**Stack:** Rust, Actix Web, SQLx, PostgreSQL, MQTT, and Docker
+
+---
+
+### [AgriSentry Core](https://github.com/arleujr/agrisentry-core)
+
+Backend service for processing telemetry and applying configurable validation and data-quality rules.
+
+- FastAPI endpoints for batch analysis
+- Asynchronous processing with background workers
+- PostgreSQL access through SQLAlchemy
+- Schema validation and anomaly checks
+- Automated tests with Pytest and pytest-asyncio
+- CI/CD workflows and Docker execution
+
+**Stack:** Python, FastAPI, SQLAlchemy, AsyncIO, PostgreSQL, and Pytest
+
+---
+
+### [DevGuard Core](https://github.com/arleujr/dev-guard-core)
+
+Command-line tool for detecting credentials and tokens in source-code files.
+
+- Regular-expression signatures and entropy analysis
+- Scanning of files staged for commit
+- Installation as a pre-commit hook
+- JSON reports for CI/CD pipelines
+
+**Stack:** Rust, Regex, Serde, and Git Hooks
+
+---
+
+## Technical stack
+
+**Core**
+
+`Python` · `FastAPI` · `SQL` · `PostgreSQL` · `SQLAlchemy` · `Git` · `Docker` · `Pytest`
+
+**Used in projects**
+
+`Redis` · `Celery` · `JWT` · `PostGIS` · `Pandas` · `Vue 3` · `TypeScript` · `React` · `Node.js` · `Rust` · `Actix Web` · `SQLx` · `MQTT` · `GitHub Actions`
+
+**Currently developing**
+
+`PySpark` · `Cloud deployment fundamentals` · `MongoDB fundamentals` · `Database performance and observability`
+
+---
+
+## Professional background
+
+### Pif Paf Alimentos — Poultry Production Intern
+
+Worked with the field technical team in routines involving biosecurity protocols, operational records, traceability, biological sampling, and field assessments.
+
+### ADWA Cannabis — Field Operations Intern
+
+Recorded environmental and crop variables, organized production data, and supported traceability and applied agronomic research.
+
+### GeCotton — Federal University of Viçosa
+
+Support technical events, schedules, materials, and group activities involving researchers, producers, professors, and companies.
 
 ---
 
 ## Education
 
-**B.Sc. in Agronomy**
-Federal University of Viçosa — UFV
+**B.Sc. in Agronomy**  
+Federal University of Viçosa — UFV  
 Expected graduation: 2026
 
 ---
 
 ## Contact
 
-* LinkedIn: [linkedin.com/in/arleujunior](https://linkedin.com/in/arleujunior)
-* Portfolio: [professional-site-ashen.vercel.app](https://professional-site-ashen.vercel.app/)
-* Email: [arleujr30@gmail.com](mailto:arleujr30@gmail.com)
+- Portfolio: [professional-site-ashen.vercel.app](https://professional-site-ashen.vercel.app/)
+- LinkedIn: [linkedin.com/in/arleujunior](https://linkedin.com/in/arleujunior)
+- Email: [arleujr30@gmail.com](mailto:arleujr30@gmail.com)
