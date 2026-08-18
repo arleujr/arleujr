@@ -2,14 +2,14 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=1b4d3e&height=170&section=header&text=Arleu%20Júnior&fontSize=40&fontColor=ffffff" alt="Arleu Júnior" />
 </p>
 
-<h3 align="center">Desenvolvimento Backend · Dados · AgTech</h3>
+<h3 align="center">Agronomia · Backend · Dados</h3>
 
 <p align="center">
-  Python · FastAPI · PostgreSQL · Docker · Rust
+  Python · FastAPI · PostgreSQL · Docker · TypeScript · Rust
 </p>
 
 <p align="center">
-  <a href="https://professional-site-ashen.vercel.app/pt-br/">
+  <a href="https://professional-site-ashen.vercel.app/">
     <img src="https://img.shields.io/badge/Portfólio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio" />
   </a>
   <a href="https://linkedin.com/in/arleujunior">
@@ -18,173 +18,182 @@
   <a href="mailto:arleujr30@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="assets/docs/arleucv.pdf">
-    <img src="https://img.shields.io/badge/Currículo-E74C3C?style=flat-square&logo=adobe-acrobat-reader&logoColor=white" alt="Currículo" />
-  </a>
 </p>
 
 <p align="center">
   English version: <a href="README.md">README.md</a>
 </p>
 
----
-
 ## Sobre mim
 
-Estou no último ano de Agronomia na Universidade Federal de Viçosa e venho construindo experiência prática em desenvolvimento backend e dados.
+Sou estudante de **Agronomia na Universidade Federal de Viçosa (UFV)** e desenvolvedor com foco em **backend, dados, automação e tecnologia aplicada a ambientes agrícolas**.
 
-Minha trajetória acadêmica e profissional me deu contato direto com operações de campo, protocolos, rastreabilidade e registros operacionais. Utilizo esse contexto para desenvolver aplicações com APIs REST, bancos de dados relacionais, processamento assíncrono, validação de dados e automação.
+Minha formação acadêmica e experiência profissional me proporcionam contato direto com operações de campo, rastreabilidade, protocolos técnicos, dados ambientais e biológicos e problemas operacionais reais.
 
-Minha stack principal é **Python, FastAPI, SQL e PostgreSQL**, apoiada por Docker, testes automatizados, Git e integração contínua. Também utilizo Redis, Celery, PostGIS, Vue, TypeScript, React, Node.js e Rust em projetos específicos.
+Utilizo esse contexto para construir sistemas envolvendo APIs, bancos de dados relacionais, telemetria, processamento assíncrono, automação, validação de dados e integração entre sistemas físicos e software.
 
-Atualmente estou aberto a oportunidades de estágio e nível júnior em desenvolvimento backend, dados ou AgTech.
+Minha stack principal é **Python, FastAPI, SQL e PostgreSQL**, apoiada por Docker, testes automatizados, Git, APIs REST e CI/CD.
 
----
-
-## Foco atual
-
-- Desenvolvimento de APIs REST com Python e FastAPI
-- Modelagem de dados relacionais e geoespaciais com PostgreSQL e PostGIS
-- Processamento assíncrono com Redis e Celery
-- Ingestão, validação, normalização e rastreabilidade de dados
-- Testes automatizados e CI/CD
-- Telemetria agrícola por MQTT e HTTP
-- Ferramentas locais para automação acadêmica e operacional
-
----
+Tenho especial interesse em sistemas que conectam o mundo físico ao software, desde sensores e ingestão de telemetria até processamento de dados, automação e aplicações de apoio à decisão.
 
 ## Projetos em destaque
 
+### 🌱 [AgriSentry | Ecossistema](https://github.com/arleujr/AgriSentry)
+
+Ecossistema de IoT e dados que conecta sensores agrícolas, firmware dos dispositivos, infraestrutura de telemetria, backend, automação e documentação de hardware.
+
+```text
+ESP32 + Sensores
+      ↓
+Firmware
+      ↓ MQTT
+IoT Gateway
+      ↓
+PostgreSQL
+      ↓
+Aplicação / Monitoramento
+```
+
+#### Componentes do ecossistema
+
+**[AgriSentry Platform](https://github.com/arleujr/AgriSentry)**
+
+Aplicação para monitoramento e automação IoT em ambientes agrícolas.
+
+**[AgriSentry Device](https://github.com/arleujr/agrisentry-device)**
+
+Firmware MicroPython para ESP32, aquisição de dados dos sensores, telemetria MQTT e tratamento local dos dados durante períodos de perda de conectividade.
+
+**[AgriSentry IoT Gateway](https://github.com/arleujr/agrisentry-iot-gateway)**
+
+Gateway em Rust responsável pela ingestão de telemetria por MQTT e HTTP e persistência dos dados em PostgreSQL.
+
+**[Assembly Docs](https://github.com/arleujr/agrisentry-assembly-docs)**
+
+Transforma uma especificação de montagem em texto em conexões validadas, documentação visual e firmware de teste para o hardware.
+
+**Tecnologias**
+
+`MicroPython` · `MQTT` · `Rust` · `Actix Web` · `SQLx` · `PostgreSQL` · `FastAPI` · `Docker`
+
+### 📚 [RefEngine](https://github.com/arleujr/RefEngine)
+
+Aplicação local para ingestão de fontes acadêmicas, revisão de metadados bibliográficos e geração de referências conforme os padrões utilizados na UFV.
+
+* Ingestão de PDF, RIS e BibTeX
+* OCR para documentos sem texto extraível
+* Validação de metadados e identificação de conflitos
+* Fluxo de revisão humana por endpoints da API
+* Execução local
+* Testes automatizados e documentação OpenAPI
+
+**Tecnologias**
+
+`Python` · `FastAPI` · `React` · `SQLite` · `Pytest` · `OpenAPI`
+
+### 📝 [tccBuilder](https://github.com/arleujr/tccBuilder)
+
+Aplicação local para estruturar, validar e gerar o conteúdo de trabalhos de conclusão de curso a partir do modelo utilizado pela UFV.
+
+* Formulários estruturados para as seções do trabalho
+* Validação de campos obrigatórios
+* Estados de revisão e tratamento de erros
+* Geração local de documentos
+* Interface web
+
+**Tecnologias**
+
+`React` · `Node.js` · `JavaScript`
+
+## Outros projetos
+
 ### [AgriSentry Cotton](https://github.com/arleujr/agrisentry-cotton)
 
-Plataforma em desenvolvimento para organizar informações de manejo, monitoramento e catálogo relacionadas à cultura do algodão.
+Plataforma agronômica para organização de dados de manejo do algodoeiro, ciclos de cultivo, atividades de scouting, catálogos e informações espaciais.
 
-- API REST assíncrona com FastAPI e SQLAlchemy
-- Persistência com PostgreSQL/PostGIS
-- Autenticação JWT e contexto por organização
-- Tarefas em segundo plano com Redis e Celery
-- Fluxo de catálogo com staging, validação, normalização, deduplicação, revisão humana e publicação
-- Testes do backend com Pytest e do frontend com Vitest
-- Interface em Vue 3 e TypeScript
+**Tecnologias**
 
-**Stack:** Python, FastAPI, PostgreSQL, PostGIS, Redis, Celery, Docker, Vue 3 e TypeScript
-
----
-
-### [RefEngine](https://github.com/arleujr/RefEngine)
-
-Aplicação local para ingestão de fontes acadêmicas, revisão de metadados bibliográficos e geração de referências conforme as normas da UFV.
-
-- Ingestão de PDF, RIS e BibTeX
-- OCR para documentos sem texto extraível
-- Validação de campos obrigatórios e identificação de conflitos
-- Revisão de metadados por endpoints PATCH
-- Execução offline e exportação formatada
-- Documentação OpenAPI e testes automatizados
-
-**Stack:** Python, FastAPI, React, SQLite, Pytest e OpenAPI
-
----
-
-### [tccBuilder](https://github.com/arleujr/tccBuilder)
-
-Aplicação local para preencher, validar e gerar um trabalho de conclusão de curso a partir do modelo da UFV.
-
-- Formulários estruturados por seção do trabalho
-- Validação de campos obrigatórios
-- Estados de revisão e tratamento de erros
-- Geração local do documento
-- Interface em React com execução em Node.js
-
-**Stack:** React, Node.js e JavaScript
-
----
-
-### [AgriSentry IoT Gateway](https://github.com/arleujr/agrisentry-iot-gateway)
-
-Gateway assíncrono para ingestão de telemetria agrícola recebida por MQTT e HTTP.
-
-- Ingestão multiprotocolo com MQTT e REST
-- Persistência em PostgreSQL com SQLx
-- Estratégia de retentativas com backoff exponencial
-- Encerramento seguro e tratamento das conexões
-- Integração com serviços FastAPI para processamento posterior
-- Ambiente local com Docker
-
-**Stack:** Rust, Actix Web, SQLx, PostgreSQL, MQTT e Docker
-
----
-
-### [AgriSentry Core](https://github.com/arleujr/agrisentry-core)
-
-Serviço backend para processar telemetria e aplicar regras configuráveis de validação e qualidade de dados.
-
-- Endpoints FastAPI para análise em lote
-- Processamento assíncrono com workers em segundo plano
-- Acesso ao PostgreSQL com SQLAlchemy
-- Validação de esquemas e verificações de anomalias
-- Testes automatizados com Pytest e pytest-asyncio
-- Fluxos de CI/CD e execução com Docker
-
-**Stack:** Python, FastAPI, SQLAlchemy, AsyncIO, PostgreSQL e Pytest
-
----
+`Python` · `FastAPI` · `PostgreSQL` · `PostGIS` · `Redis` · `Celery` · `Vue 3` · `TypeScript`
 
 ### [DevGuard Core](https://github.com/arleujr/dev-guard-core)
 
-Ferramenta de linha de comando para detectar credenciais e tokens em arquivos de código.
+Scanner de secrets desenvolvido em Rust e utilizado nos meus projetos para ajudar a evitar que chaves, tokens e outras credenciais sensíveis sejam versionadas acidentalmente.
 
-- Assinaturas com expressões regulares e análise de entropia
-- Varredura de arquivos preparados para commit
-- Instalação como pre-commit hook
-- Relatórios JSON para pipelines de CI/CD
+* Detecção de padrões de secrets e credenciais
+* Análise baseada em entropia
+* Varredura de arquivos staged
+* Integração com pre commit do Git
+* Relatórios para automação e CI/CD
 
-**Stack:** Rust, Regex, Serde e Git Hooks
+**Tecnologias**
 
----
+`Rust` · `Regex` · `Shannon Entropy` · `Git Hooks` · `CI/CD`
 
 ## Stack técnica
 
-**Principal**
+### Principal
 
-`Python` · `FastAPI` · `SQL` · `PostgreSQL` · `SQLAlchemy` · `Git` · `Docker` · `Pytest`
+`Python` · `FastAPI` · `SQL` · `PostgreSQL` · `Docker` · `Git` · `APIs REST` · `Pytest` · `CI/CD`
 
-**Utilizadas em projetos**
+### Utilizada nos projetos
 
-`Redis` · `Celery` · `JWT` · `PostGIS` · `Pandas` · `Vue 3` · `TypeScript` · `React` · `Node.js` · `Rust` · `Actix Web` · `SQLx` · `MQTT` · `GitHub Actions`
+`TypeScript` · `React` · `Vue 3` · `Node.js` · `Rust` · `Actix Web` · `SQLx` · `MQTT` · `Redis` · `Celery` · `PostGIS` · `Pandas` · `GitHub Actions`
 
-**Em desenvolvimento**
+### Em aprendizado
 
-`PySpark` · `Fundamentos de implantação em nuvem` · `Fundamentos de MongoDB` · `Desempenho e observabilidade de bancos de dados`
+`PySpark` · `Fundamentos de Cloud` · `Performance de bancos de dados` · `Observabilidade`
 
----
+**Santander Automação com n8n | Santander + DIO**
+
+Participante selecionado para programa prático com foco em `n8n`, `Python`, `APIs`, `Webhooks`, automação com IA e RPA.
+
+## Linguagens no GitHub
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arleujr&theme=github_dark"
+    alt="Linguagens por repositório"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arleujr&theme=github_dark"
+    alt="Linguagens por commits"
+  />
+</p>
+
+<p align="center">
+  <sub>As estatísticas representam a atividade dos repositórios no GitHub e não o nível de domínio de cada linguagem.</sub>
+</p>
 
 ## Experiência profissional
 
-### Pif Paf Alimentos — Estagiário em Produção Avícola
+### Pif Paf Alimentos | Estagiário em Produção Avícola
 
-Atuei com a equipe técnica de campo em rotinas envolvendo protocolos de biosseguridade, registros operacionais, rastreabilidade, coletas biológicas e avaliações de campo.
+Atuação junto à equipe técnica de campo em rotinas envolvendo biossegurança, registros operacionais, rastreabilidade, coleta de material biológico e avaliações em campo.
 
-### ADWA Cannabis — Estagiário em Operações de Campo
+A experiência em produção animal também fortaleceu minha capacidade de trabalhar em ambientes dinâmicos, nos quais as prioridades podem mudar rapidamente diante de situações não previstas. O acompanhamento dos animais e das condições de produção exigia atenção constante, adaptação, priorização de atividades e colaboração com a equipe para responder aos desafios da operação.
 
-Registrei variáveis ambientais e da cultura, organizei dados de produção e apoiei atividades de rastreabilidade e pesquisa agronômica aplicada.
+### ADWA Cannabis | Estagiário em Operações de Campo
 
-### GeCotton — Universidade Federal de Viçosa
+Atuação no registro de variáveis ambientais e da cultura, organização de dados produtivos e apoio à rastreabilidade e à pesquisa agronômica aplicada.
 
-Apoio eventos técnicos, agendas, materiais e atividades do grupo envolvendo pesquisadores, produtores, professores e empresas.
+A experiência aproximou atividades de campo e organização de dados, reforçando meu interesse por processos em que as informações coletadas durante a operação precisam permanecer estruturadas, rastreáveis e úteis para análise e tomada de decisão.
 
----
+### GeCotton UFV | Grupo de estudos em cotonicultura
+
+Participação em atividades técnicas e organizacionais relacionadas à cotonicultura, com contato com pesquisadores, professores, produtores, estudantes e empresas do setor agrícola.
+
+A participação no grupo contribui para ampliar minha visão sobre a cadeia produtiva do algodão, comunicação técnica e interação entre universidade, pesquisa, produtores e mercado.
 
 ## Formação
 
-**Bacharelado em Agronomia**  
-Universidade Federal de Viçosa — UFV  
-Conclusão prevista: 2026
+**Bacharelado em Agronomia**
 
----
+Universidade Federal de Viçosa | UFV
 
 ## Contato
 
-- Portfólio: [professional-site-ashen.vercel.app/pt-br](https://professional-site-ashen.vercel.app/pt-br/)
-- LinkedIn: [linkedin.com/in/arleujunior](https://linkedin.com/in/arleujunior)
-- Email: [arleujr30@gmail.com](mailto:arleujr30@gmail.com)
+<p>
+  <a href="https://professional-site-ashen.vercel.app/">Portfólio</a> ·
+  <a href="https://linkedin.com/in/arleujunior">LinkedIn</a> ·
+  <a href="mailto:arleujr30@gmail.com">Email</a>
+</p>
